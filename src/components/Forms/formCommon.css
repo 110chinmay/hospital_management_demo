@@ -1,0 +1,9 @@
+.margin-between {
+  margin: 2%;
+}
+input {
+  height: 2rem;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
