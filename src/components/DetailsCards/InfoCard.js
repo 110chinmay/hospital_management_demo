@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 
 export default function InfoCard({ title, icon, description }) {
   return (
-    <Card sx={{ maxWidth: 345, marginRight: "1.5rem" }}>
+    <Card sx={{ maxWidth: 345, marginRight: "1.5rem", textAlign: "center" }}>
       <CardMedia sx={{ height: 260 }} image={icon} title={title} />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

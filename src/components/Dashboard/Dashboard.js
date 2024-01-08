@@ -8,7 +8,11 @@ function Dashboard() {
     <div>
       <Navbar />
       {/* <div style={{ display: "flex", margin: "1.5rem" }}> */}
-      <Grid container spacing={2} sx={{ margin: "1.5rem" }}>
+      <Grid
+        container
+        spacing={2}
+        sx={{ margin: "1.5rem", textAlign: "-webkit-center" }}
+      >
         <Grid xs={4}>
           <InfoCard
             title="Doctor"
