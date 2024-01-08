@@ -1,5 +1,6 @@
 import React from "react";
 import { Input } from "@mui/base/Input";
+import Navbar from "../Navbar/Navbar";
 import { FormControl } from "@mui/base/FormControl";
 import Grid from "@mui/material/Unstable_Grid2";
 import "./formCommon.css";
@@ -12,6 +13,7 @@ function AddDoctorForm() {
 
   return (
     <div style={{ textAlign: "center" }}>
+      <Navbar />
       <Grid
         container
         spacing={2}
