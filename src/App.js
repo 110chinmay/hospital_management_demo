@@ -5,6 +5,8 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import AddDoctorForm from "./components/Forms/AddDoctorForm";
 import AddPatientForm from "./components/Forms/AddPatientForm";
 
+import Appointment from "./components/Appointment/Appointment";
+
 function App() {
   return (
     <>
@@ -14,7 +16,7 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/add-patient" element={<AddPatientForm />} />
           <Route path="/add-doctor" element={<AddDoctorForm />} />
-          <Route path="/add-appointment" element={<Dashboard />} />
+          <Route path="/add-appointment" element={<Appointment />} />
         </Routes>
       </BrowserRouter>
     </>
